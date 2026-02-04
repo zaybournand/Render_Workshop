@@ -23,9 +23,11 @@ API endpoint: /api/questions
 ### Frontend
 
 ```bash
-cd backend
-pip3 install --user -r requirements.txt
-python3 app.py
+cd frontend
+npm install
+npm start
+Runs on http://localhost:3000
+Fetches quiz questions from backend
 ```
 
 ## Deployment on Render
