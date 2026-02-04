@@ -42,7 +42,7 @@ Fetches quiz questions from backend
 
 - Render sets the PORT environment variable automatically
 
-### Backend
+### Frontend
 
 - Push frontend/ to GitHub
 

@@ -16,6 +16,11 @@ questions = [
 def get_questions():
     return jsonify(questions)
 
+@app.route("/")
+def home():
+    return "Quiz backend is running! Go to /api/questions for the quiz data."
+
+
 # Port binding for Render
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
