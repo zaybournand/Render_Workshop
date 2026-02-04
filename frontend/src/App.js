@@ -7,10 +7,12 @@ function App() {
   const [finished, setFinished] = useState(false);
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/questions") // Change to Render URL in production
+    const apiUrl = process.env.REACT_APP_API_URL;  // reads from .env
+    fetch(apiUrl)
       .then(res => res.json())
       .then(data => setQuestions(data));
   }, []);
+  
 
   const handleAnswer = (option) => {
     if(option === questions[current].answer) setScore(score + 1);
