@@ -38,6 +38,14 @@ Fetches quiz questions from backend
 
 - Create Web Service on Render
 
+- Pick your project from github
+
+- Pick region closest
+
+- Root Directory: backend
+
+- Build Command: pip install -r requirements.txt
+
 - Start Command: python app.py
 
 - Render sets the PORT environment variable automatically
@@ -48,11 +56,20 @@ Fetches quiz questions from backend
 
 - Create Static Site on Render
 
+- Pick your project from github
+
+- Pick region closest
+
+- Root Directory: frontend
+
 - Build Command: npm install && npm run build
 
 - Publish Directory: build
 
-Update fetch() in App.js to use the backend's live URL before deploying frontend.
+- **Environment Variables (Frontend on Render)**
+  - **Key:** `REACT_APP_API_URL`
+  - **Value:** `<your-backend-render-link>/api/questions`  
+    Example: `https://backend-55tp.onrender.com/api/questions`
 
 ## Notes
 
