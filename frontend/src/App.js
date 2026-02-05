@@ -99,7 +99,7 @@ function App() {
               margin: "10px auto",
               padding: "10px 0",
               backgroundColor: "#007bff",
-              color: "white",
+              color: "black",
               border: "none",
               borderRadius: "5px",
               cursor: "pointer",

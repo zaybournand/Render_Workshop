@@ -10,6 +10,8 @@ questions = [
     {"id": 1, "question": "What is 14 + 2 * 2 ?", "options": ["14", "18", "32"], "answer": "18"},
     {"id": 2, "question": "What is the capital of Nigeria?", "options": ["Abuja", "Cairo", "Rabat"], "answer": "Abuja"},
     {"id": 3, "question": "Which language is this app using?", "options": ["Python", "Java", "C++"], "answer": "Python"},
+    {"id": 4, "question": "What color is the sun?", "options": ["Yellow", "Green", "Blue"], "answer": "Yellow"},
+
 ]
 
 @app.route("/api/questions")
