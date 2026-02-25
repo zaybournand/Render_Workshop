@@ -15,7 +15,7 @@ Tracks quiz score and fetches questions from the backend. Ready for deployment o
 ```bash
 cd backend
 pip3 install --user -r requirements.txt
-python3 app.py
+python app.py
 Runs on http://localhost:5000
 API endpoint: /api/questions
 ```
